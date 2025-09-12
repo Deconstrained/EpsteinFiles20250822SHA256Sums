@@ -1,6 +1,8 @@
 # Epstein Files Initial (Redacted) Public Release, August 2025, SHA256sums
 
-This is intended to be a guide to the integrity of files [published by the US House Oversight Committee](https://oversight.house.gov/release/oversight-committee-releases-epstein-records-provided-by-the-department-of-justice/) via Google Drive on Sept. 2, 2025 (the documents themselves being dated August 22, 2025). Obtaining the full fileset is a work still in progress and so, some of its results may be incorrect.
+This is intended to be a guide to the integrity of files [published by the US House Oversight Committee](https://oversight.house.gov/release/oversight-committee-releases-epstein-records-provided-by-the-department-of-justice/) via Google Drive on Sept. 2, 2025 (the documents themselves being dated August 22, 2025). Obtaining the full fileset is a work still in progress and so, some of its results may be incorrect. The current run of of the file hash generation pipeline is not even done yet. It is expected to be at least a megabyte long.
+
+The list of hex digests will assume the same working directory [as linked to in Google Docs from the House Oversight Committee's webpage](https://drive.google.com/drive/folders/1TrGxDGQLDLZu1vvvZDBAh-e7wN3y6Hoz), with the full fileset residing in a directory named `Prod 01_20250822` and list all paths to files as relative paths.
 
 It is the author's opinion that it is important that the public has offline copies of this trove of data. Unfortunately, the size of the collection (>10k files, >14 GB) makes it difficult to download from Google Documents, so that is a slow process. By having the SHA256 hex digests of the files, the public can both validate that the download was successful and included the full contents of each file, but can also take notice whenever a file in the collection is removed or changed.
 
