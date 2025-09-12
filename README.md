@@ -1,12 +1,14 @@
 # Epstein Files Initial (Redacted) Public Release, August 2025, SHA256sums
 
-This is intended to be a guide to the integrity of files [published by the US House Oversight Committee](https://oversight.house.gov/release/oversight-committee-releases-epstein-records-provided-by-the-department-of-justice/) via Google Drive on Sept. 2, 2025 (the documents themselves being dated August 22, 2025). It is a work in progress and I am not yet fully confident in its completeness.
+This is intended to be a guide to the integrity of files [published by the US House Oversight Committee](https://oversight.house.gov/release/oversight-committee-releases-epstein-records-provided-by-the-department-of-justice/) via Google Drive on Sept. 2, 2025 (the documents themselves being dated August 22, 2025). Obtaining the full fileset is a work still in progress and so, some of its results may be incorrect.
 
 It is the author's opinion that it is important that the public has offline copies of this trove of data. Unfortunately, the size of the collection (>10k files, >14 GB) makes it difficult to download from Google Documents, so that is a slow process. By having the SHA256 hex digests of the files, the public can both validate that the download was successful and included the full contents of each file, but can also take notice whenever a file in the collection is removed or changed.
 
 ## Contributing
 
-Yes please! Download, then check. I am in the process of doing it by using a Google Drive file client instead of waiting for Google to successfully build a zipfile of the collection. 
+Yes please! Download, then check. It is recommended to use a Google Drive file client instead of waiting for Google via its web UI to successfully build a zipfile of the collection. 
+
+If changing an existing hash, reviewers must manually download re-download the files (preserving the original) and validate the checksum matches. If they differ, examine both copies of the file for changes since the initial download (versus a corrupt file / failed download).
 
 To generate the list of files, currently this project only has the one generator script , `generate-gnu.sh`, which uses the GNU versions of `sha256sum` and `find` i.e. that would be found on a Linux-based system.
 
